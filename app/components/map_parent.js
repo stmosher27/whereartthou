@@ -7,7 +7,6 @@ import {
 import Map from './map.js';
 import Form from './form.js';
 import TrackForm from './track_form.js';
-import GeoFencing from 'react-native-geo-fencing';
 
 import { styles } from '../styles/map_parent_style.js';
 
