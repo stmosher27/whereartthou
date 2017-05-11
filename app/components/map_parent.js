@@ -32,7 +32,14 @@ export default class MapParent extends Component {
       currentPosition: {}
 
     };
-
+    this.switchAlert = this.switchAlert.bind(this);
+    this.switchOnEnter = this.switchOnEnter.bind(this);
+    this.switchOnExit = this.switchOnExit.bind(this);
+    this.finish = this.finish.bind(this);
+    this.onPress = this.onPress.bind(this);
+    this.handleWatchSubmit = this.handleWatchSubmit.bind(this);
+    this.submittable = this.submittable.bind(this);
+    this.cancel = this.cancel.bind(this);
   }
 
 
